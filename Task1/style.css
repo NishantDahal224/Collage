@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 20px;
+    background-color: white;
+    width: fit-content;
+    box-shadow: 4px 5px 8px 3px gray;
+    
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card h2{
+    color: blueviolet;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.card button{
+    border-radius: 10px;
+    padding: 6px 20px;
+    background-color: rgb(14, 78, 230);
+    color: white;
+    margin: 10px;
+    
+}
+
+.card p{
+    padding-left: 10px;
+    padding-top: 5px;
+}
