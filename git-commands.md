@@ -30,7 +30,7 @@ Later (if one push is already done using -u: upstream)
 ```
 git push
 ```
-#Extra Commande
+# Extra Commande
 7. View the status 
 ```
 git status
@@ -57,3 +57,7 @@ git config user.email "user-email"
 git config --global user.email "user-name"
 git config --global user.email "user-email"
 ```
+# For after changing on project
+1. git add.
+2. git commit -m "your_commit_message"
+3. git push
