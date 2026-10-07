@@ -30,24 +30,30 @@ Later (if one push is already done using -u: upstream)
 ```
 git push
 ```
+#Extra Commande
 7. View the status 
 ```
 git status
 ```
-8. 
+8. To update the remote repo url
+```
+git remote set-url origin [your repo url]
+```
+9. To verify/display added remote url (Note: enter to view more config and q to exist the opened editor) 
 ```
 git remote -v
 ```
-9. List the config
+10. List the config
 ```
 git config --list
 ```
-10. project base config
+11. project base config
 ```
 git config user.name "user-name"
 git config user.email "user-email"
 ```
-11. global config
+12. global config
 ```
 git config --global user.email "user-name"
 git config --global user.email "user-email"
+```
