@@ -61,3 +61,10 @@ git config --global user.email "user-email"
 1. git add.
 2. git commit -m "your_commit_message"
 3. git push
+
+# Using Personal access token (pat) on HTTPS URL
+-https://[PAT]@github.com/[github_user_name]/[project_name]
+-git remote add origin [Pat_url]
+
+To update the remotr url:
+-git remote set-url origin https://[PAT]@github.com/[github_usrt_name]/[project_name]
