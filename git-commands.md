@@ -35,6 +35,19 @@ git push
 git status
 ```
 8. 
-``
+```
 git remote -v
 ```
+9. List the config
+```
+git config --list
+```
+10. project base config
+```
+git config user.name "user-name"
+git config user.email "user-email"
+```
+11. global config
+```
+git config --global user.email "user-name"
+git config --global user.email "user-email"
